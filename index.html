@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="stlye.css">
+    <title>Password Generator</title>
+</head>
+    <body id="body">
+        <!-- start of overall container for the content -->
+        <div class="container">
+            <!-- row 1 -->
+            <div class="row1">
+                    <div col="col-12">
+                    <header>
+                        <h1 id="h1">Rudy's PW Generator</h1>
+                    </header>
+                    <br>
+                    <br>
+                    <br>
+                </div>
+            </div>
+            <!-- row 2 -->
+            <div class="row2">
+                    <form>
+                        <label for="generateButton" class="text-justify"> Sup, Playa! I heard you wanted to create a new password. Go ahead and click
+                            on the "generate password" button and I'll hook you up! ;). 
+                        </label>
+                            <br>
+                            <br>
+                            <br>
+                            <!-- button to run the PW generate function -->
+                            <button type="button" onclick="generatePassword()"  autofocus id="generateButton" class="">Generate Password</button>
+                        </div>
+                            <textarea id="passwordEntry" class="" cols=40 rows=10>Your new password will appear here, playa!</textarea>
+                        </div>
+                    </form>
+                </div>
+            <!-- end of row 2 -->
+        </div>
+        <!-- end of overall container for the content -->
+    </body>
+</html>
